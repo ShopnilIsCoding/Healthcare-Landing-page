@@ -13,10 +13,10 @@ const OurMission = () => {
                 </p>
                 <button className="flex justify-center rounded-xl items-center btn bg-highlight text-core text-inter mt-12 hover:bg-core hover:text-highlight"><span>Learn more</span><MdArrowOutward /></button>
             </div>
-            <div className="lg:w-[55%]">
-                <div className="relative flex justify-end">
+            <div className="lg:w-[55%] flex justify-end">
+                <div className="relative  w-fit">
                     <img className="" src={missionImg} alt="" />
-                    <div className="absolute z-50 bg-sub font-inter lg:px-[30px] lg:py-[40px] p-5 rounded-xl lg:rounded-3xl lg:-bottom-[10%] md:bottom-[5%] -bottom-[20%] lg:left-[10%] md:left-[50%] left-0 -translate-x-[0%] md:-translate-x-[25%] lg:-translate-x-0 lg:max-w-[390px]">
+                    <div className="absolute z-50 bg-sub font-inter lg:px-[30px] lg:py-[40px] p-5 rounded-xl lg:rounded-3xl lg:-bottom-[10%] md:-bottom-[5%]  -bottom-[20%] lg:-left-[15%]  left-0 -translate-x-[0%]  lg:-translate-x-0 lg:max-w-[390px]">
                     <h3 className="text-[#FFFFFF] lg:mb-2 font-medium lg:text-2xl text-xl">Our mission is simple</h3>
                     <p className="text-[#FFFFFFCC]">To provide high-quality healthcare services that are accessible, personalized, and patient-centered.</p>
                     </div>

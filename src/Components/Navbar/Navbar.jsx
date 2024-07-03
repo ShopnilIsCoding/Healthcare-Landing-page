@@ -22,15 +22,10 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
+         <li className="text-core"><a>Home</a></li>
+      <li className="text-core"><a>Services</a></li>
+      <li className="text-core"><a>Blog</a></li>
+      <li className="text-core"><a>About us</a></li>
       </ul>
     </div>
     <a href="/" ><img src="/logo dark.png" className="h-5 lg:h-7"  /></a>
@@ -38,10 +33,10 @@ const Navbar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li className="text-core"><a>Home</a></li>
-      <li className="text-core"><a>Services</a></li>
-      <li className="text-core"><a>Blog</a></li>
-      <li className="text-core"><a>About us</a></li>
+      <li className="text-core hover:bg-core hover:text-[#FFFFFF]"><a>Home</a></li>
+      <li className="text-core hover:bg-core hover:text-[#FFFFFF]"><a>Services</a></li>
+      <li className="text-core hover:bg-core hover:text-[#FFFFFF]"><a>Blog</a></li>
+      <li className="text-core hover:bg-core hover:text-[#FFFFFF]"><a>About us</a></li>
     </ul>
   </div>
   <div className="navbar-end">

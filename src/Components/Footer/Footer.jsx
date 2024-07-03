@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className="bg-core">
             <div className="container mx-auto">
-            <footer className="footer  p-10 font-inter text-[#FFFFF5] ">
+            <footer className="footer  p-10 lg:py-32 font-inter text-[#FFFFF5] ">
   <aside>
     <img className="" src={logo} alt="" />
     <br />

@@ -1,5 +1,5 @@
 import { MdArrowOutward } from "react-icons/md";
-import appointmentImg from "../../assets/Rectangle 32.png";
+// import appointmentImg from "../../assets/Rectangle 32.png";
 import logo from "../../assets/logo light.png";
 const Appointment = () => {
   return (
