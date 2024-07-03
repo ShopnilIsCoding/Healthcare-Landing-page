@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {},
     colors:{
-      core:"#020043"
+      core:"#020043",
+      sub:"#4D4C7B"
     }
   },
   plugins: [require('daisyui')],
