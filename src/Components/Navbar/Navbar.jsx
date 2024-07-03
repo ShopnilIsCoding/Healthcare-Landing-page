@@ -1,7 +1,8 @@
+import { MdArrowOutward } from "react-icons/md";
 const Navbar = () => {
     return (
-        <div>
-            <div className="navbar ">
+        <div className="container mx-auto">
+            <div className="navbar  font-inter ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -32,18 +33,19 @@ const Navbar = () => {
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <a href="/" ><img src="/logo dark.png" className="h-5 lg:h-7"  /></a>
+    
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a>Home</a></li>
-      <li><a>Services</a></li>
-      <li><a>Blog</a></li>
-      <li><a>About us</a></li>
+      <li className="text-core"><a>Home</a></li>
+      <li className="text-core"><a>Services</a></li>
+      <li className="text-core"><a>Blog</a></li>
+      <li className="text-core"><a>About us</a></li>
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+    <a className="btn text-core btn-outline btn-[#020043] rounded-2xl hover:bg-core">Appointment <MdArrowOutward /></a>
     
   </div>
 </div>

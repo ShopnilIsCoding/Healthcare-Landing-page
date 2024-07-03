@@ -1,4 +1,5 @@
 
+import Banner from './Components/Banner/Banner'
 import Navbar from './Components/Navbar/Navbar'
 import './index.css'
 
@@ -6,9 +7,10 @@ function App() {
   
 
   return (
-    <div className='bg-[#FBFBFB]'>
-      <div className='container mx-auto'>
+    <div >
+      <div className=''>
      <Navbar></Navbar>
+     <Banner></Banner>
     </div>
     </div>
   )
