@@ -8,7 +8,8 @@ export default {
     extend: {},
     colors:{
       core:"#020043",
-      sub:"#4D4C7B"
+      sub:"#4D4C7B",
+      highlight:"#FFC637"
     }
   },
   plugins: [require('daisyui')],
