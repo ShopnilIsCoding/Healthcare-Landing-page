@@ -16,21 +16,7 @@ const Services = () => {
                 <button className="flex justify-center rounded-xl items-center btn bg-highlight text-core text-inter mt-12 hover:bg-core hover:text-highlight"><span>Appointment</span><MdArrowOutward /></button>
             </div>
             <div className="flex justify-end ">
-            <div className="w-fit relative">
-            <img className="rounded-3xl" src={img1} alt="" />
-            <div className="absolute z-50 bg-[#02004399] bottom-0 lg:bottom-5 left-0 lg:left-5 flex gap-2 lg:px-5 lg:py-5 px-3 py-5 lg:w-[65%] rounded-3xl">
-                <div className="flex-1">
-                <h3 className="text-[#FFFFFF] text-xl">
-                Advanced Technology
-
-                </h3>
-                <p className="text-[#FFFFF5] text-sm mt-2 opacity-80">Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision</p>
-                </div>
-                <div className="w-fit flex items-end">
-                    <p className="bg-highlight hover:bg-core text-[#FFFFFF] rounded-full w-fit p-2 cursor-pointer transition-colors "><MdArrowOutward className="text-2xl"/></p>
-                </div>
-            </div>
-            </div>
+            <ImgCard img={img1} desc={"Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision"} title={"Advanced Technology"}></ImgCard>
             
             
             </div>
