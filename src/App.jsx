@@ -1,4 +1,5 @@
 
+import Appointment from './Components/Appointment/Appointment'
 import Banner from './Components/Banner/Banner'
 import FAQ from './Components/FAQ/FAQ'
 import Navbar from './Components/Navbar/Navbar'
@@ -21,6 +22,7 @@ function App() {
      <Services></Services>
      <TestimonialSlider></TestimonialSlider>
      <FAQ></FAQ>
+     <Appointment></Appointment>
     </div>
     </div>
   )
