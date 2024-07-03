@@ -1,5 +1,6 @@
 
 import Banner from './Components/Banner/Banner'
+import FAQ from './Components/FAQ/FAQ'
 import Navbar from './Components/Navbar/Navbar'
 import OurMission from './Components/OurMission/OurMission'
 import Services from './Components/Services/Services'
@@ -19,6 +20,7 @@ function App() {
      <OurMission></OurMission>
      <Services></Services>
      <TestimonialSlider></TestimonialSlider>
+     <FAQ></FAQ>
     </div>
     </div>
   )
