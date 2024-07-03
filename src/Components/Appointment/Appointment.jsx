@@ -4,17 +4,19 @@ import logo from "../../assets/logo light.png";
 const Appointment = () => {
   return (
     <div className="relative">
-      <div className="container mx-auto font-inter my-16 lg:my-40">
-      <div className="relative">
-        <img className="w-full rounded-3xl" src={appointmentImg} alt="Appointment" />
+      <div className="container mx-auto font-inter my-16 lg:my-40 ">
+      <div className="relative bgi  rounded-3xl  bg-cover bg-center lg:min-h-[577px] md:min-h-[450px] min-h-[350px]">
+        {/* <img className="w-full rounded-3xl" src={appointmentImg} alt="Appointment" /> 
+        can be used for default image
+        */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_#020043,_rgba(2,_0,_67,_0.30))] top-0 left-0 rounded-3xl"></div>
         <div className="absolute inset-0 flex justify-between z-10 lg:px-16 lg:py-20 p-3">
-          <div className="flex justify-center flex-col flex-1"><h1 className="text-[#FFFFF5]  lg:text-4xl text-lg font-bold max-w-xs tracking-wider lg:mb-6 ">
+          <div className="flex justify-center flex-col flex-1"><h1 className="text-[#FFFFF5]  lg:text-4xl text-xl font-bold max-w-xs tracking-wider lg:mb-6 mb-3">
             Get Your First Appointment at 50% Off!
           </h1>
-          <div className="">
-            <button className="btn bg-highlight border-0 text-core rounded-xl lg:px-6 px-0  hover:bg-core hover:text-[#FFFFFF] transition-colors lg:mr-6 mr-1">Appointment <MdArrowOutward> </MdArrowOutward> </button>
-          <button className="btn btn-outline border border-[#FFFFFF] text-[#FFFFFF] hover:bg-highlight hover:text-core rounded-xl lg:px-6 transition-colors px-0">Learn More <MdArrowOutward/> </button>
+          <div className=" space-y-1">
+            <button className="btn bg-highlight border-0 text-core rounded-xl lg:px-6   hover:bg-core hover:text-[#FFFFFF] transition-colors lg:mr-6 mr-1">Appointment <MdArrowOutward> </MdArrowOutward> </button>
+          <button className="btn btn-outline border border-[#FFFFFF] text-[#FFFFFF] hover:bg-highlight hover:text-core rounded-xl lg:px-6 transition-colors ">Learn More <MdArrowOutward/> </button>
           </div>
           </div>
           <div className="w-fit h-fit">

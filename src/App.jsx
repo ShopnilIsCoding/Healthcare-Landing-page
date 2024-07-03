@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div >
-      <div className=''>
+      <div className='w-[97%] mx-auto lg:w-full md:w-full'>
      <Navbar></Navbar>
      <Banner></Banner>
      <Stats></Stats>

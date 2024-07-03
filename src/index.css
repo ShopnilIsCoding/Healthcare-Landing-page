@@ -34,3 +34,9 @@
 {
   margin: -20px;
 }
+/* appointment section  */
+.bgi{
+  background: url('./assets/Rectangle 32.png') no-repeat center;
+  background-size: cover;
+  object-fit: cover;
+}
