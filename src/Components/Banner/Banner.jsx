@@ -5,7 +5,7 @@ const Banner = () => {
         <div className='mt-12 relative'>
             <div className='relative rounded-[62px] overflow-hidden container mx-auto' >
                 <img src={bannerImg} className='w-full ' />
-                <div className='bg-[linear-gradient(179deg,_rgba(0,193,157,0.00)-25.42%,rgba(2,0,67,0.47)107.11%)] absolute z-10 h-full w-full top-0'></div>
+                <div className='bg-[linear-gradient(to_bottom,_rgba(0,_155,_144,_0.09),_rgba(2,_11,_72,_0.44))] absolute z-10 h-full w-full top-0'></div>
             </div>
             
             <div className='bg-base-100  absolute top-0 -z-50 h-[30%] w-full'></div>
