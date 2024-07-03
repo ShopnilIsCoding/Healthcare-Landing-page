@@ -3,7 +3,7 @@
 const TestimonialCards = ({ title, description, image, position, name }) => {
   return (
     <div>
-      <div className="max-w-md p-5 bg-[#FFFFF5]  rounded-lg font-inter h-[320px] flex flex-col mx-5 lg:mx-1">
+      <div className="max-w-md p-5 bg-[#FFFFF5]  rounded-lg font-inter min-h-[320px] flex flex-col mx-5 lg:mx-1">
         <h5 className="mb-2 text-xl font-semibold max-w-[310px] text-core">
           {title}
         </h5>

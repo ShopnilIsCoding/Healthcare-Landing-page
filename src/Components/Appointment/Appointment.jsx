@@ -13,8 +13,8 @@ const Appointment = () => {
             Get Your First Appointment at 50% Off!
           </h1>
           <div className="">
-            <button className="btn bg-highlight border-0 text-core rounded-xl lg:px-6 px-1  hover:bg-core hover:text-[#FFFFFF] transition-colors lg:mr-6">Appointment <MdArrowOutward> </MdArrowOutward> </button>
-          <button className="btn btn-outline border border-[#FFFFFF] text-[#FFFFFF] hover:bg-highlight hover:text-core rounded-xl lg:px-6 transition-colors px-1">Learn More <MdArrowOutward/> </button>
+            <button className="btn bg-highlight border-0 text-core rounded-xl lg:px-6 px-0  hover:bg-core hover:text-[#FFFFFF] transition-colors lg:mr-6 mr-1">Appointment <MdArrowOutward> </MdArrowOutward> </button>
+          <button className="btn btn-outline border border-[#FFFFFF] text-[#FFFFFF] hover:bg-highlight hover:text-core rounded-xl lg:px-6 transition-colors px-0">Learn More <MdArrowOutward/> </button>
           </div>
           </div>
           <div className="w-fit h-fit">
