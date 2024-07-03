@@ -1,8 +1,29 @@
-# React + Vite
+## npm Packages Used
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- [aos](https://www.npmjs.com/package/aos): AOS (Animate On Scroll) is used to animate elements as they scroll into view, enhancing the website's visual appeal.
+- [animate.css](https://www.npmjs.com/package/animate.css): The Animate.css library provides a collection of CSS animations to add visual effects to elements on the website.
+- [swiper](https://www.npmjs.com/package/swiper): Swiper is a modern mobile touch slider with hardware-accelerated transitions and customizable features. It is used to create dynamic sliders for showcasing property images and other content.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+
+Make sure you have the following installed on your system:
+- Node.js (v14.x or higher)
+- npm (v6.x or higher) or yarn (v1.x or higher)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ShopnilIsCoding/PremierResX.git
+   cd PremierResX
+2. Install dependencies:
+   ```bash
+   npm install
+3. Run the development server:
+   ```bash
+   npm run dev
+4. Build for production:
+   ```bash
+   npm run build
