@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar/Navbar'
 import OurMission from './Components/OurMission/OurMission'
 import Services from './Components/Services/Services'
 import Stats from './Components/Stats/Stats'
+import TestimonialSlider from './Components/Testimonials/TestimonialSlider'
 import './index.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
      <Stats></Stats>
      <OurMission></OurMission>
      <Services></Services>
+     <TestimonialSlider></TestimonialSlider>
     </div>
     </div>
   )
