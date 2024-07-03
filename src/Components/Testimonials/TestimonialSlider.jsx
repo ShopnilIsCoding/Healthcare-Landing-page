@@ -64,7 +64,7 @@ const TestimonialSlider = () => {
   };
 
   return (
-    <div className="container mx-auto  lg:my-40 my-16">
+    <div className="container mx-auto  lg:my-40 my-16"data-aos="fade-up" data-aos-duration="1000">
       <div className=" mb-8">
       <p className="text-sub font-inter rounded-2xl px-2 py-1 border border-[#343268]  w-[130px] text-center">Testimonial</p>
       <h1 className="text-core text-3xl lg:text-4xl lg:max-w-md font-inter font-semibold mt-2 lg:mt-5">What they say about us</h1>

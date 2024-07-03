@@ -1,6 +1,6 @@
 const FAQ = () => {
   return (
-    <div className="container mx-auto lg:my-40 my-16 font-inter">
+    <div className="container mx-auto lg:my-40 my-16 font-inter"data-aos="fade-up">
       <div className=" mb-8">
         <p className="text-sub font-inter rounded-2xl px-5 py-1 border border-[#343268]  w-fit text-center">
           Faq

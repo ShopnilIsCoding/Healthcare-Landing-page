@@ -4,7 +4,7 @@ import missionImg from "../../assets/Rectangle 24.png";
 
 const OurMission = () => {
     return (
-        <div className="container mx-auto flex flex-col lg:flex-row lg:my-40 my-16 justify-between gap-8">
+        <div className="container mx-auto flex flex-col lg:flex-row lg:my-40 my-16 justify-between gap-8" data-aos="fade-up">
             <div className="lg:w-[35%]">
                 <p className="text-sub font-inter rounded-2xl px-2 py-1 border border-[#343268] bg-[#FFFFF5] w-[130px] text-center">Who we are</p>
                 <h1 className="text-core text-3xl lg:text-4xl lg:max-w-sm font-inter font-semibold mt-2 lg:mt-7">We Help To Get Soultions</h1>

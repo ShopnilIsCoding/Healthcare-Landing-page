@@ -3,7 +3,7 @@ import bannerImg from '../../assets/Rectangle 5.png'
 const Banner = () => {
     return (
         <div className='mt-12 relative'>
-            <div className='relative rounded-[62px] overflow-hidden container mx-auto' >
+            <div className='relative rounded-[62px] overflow-hidden container mx-auto' data-aos="fade-up" data-aos-duration="1000">
                 <img src={bannerImg} className='w-full ' />
                 <div className='bg-[linear-gradient(to_bottom,_rgba(0,_155,_144,_0.09),_rgba(2,_11,_72,_0.44))] absolute z-10 h-full w-full top-0'></div>
             </div>

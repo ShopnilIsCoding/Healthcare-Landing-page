@@ -6,7 +6,7 @@ import ImgCard from "./ImgCard";
 
 const Services = () => {
     return (
-        <div className="container mx-auto grid lg:grid-cols-2 grid-cols-1 bg-[#FFFFF5] font-inter lg:p-10 p-5 rounded-3xl gap-4 lg:gap-14 mt-28">
+        <div className="container mx-auto grid lg:grid-cols-2 grid-cols-1 bg-[#FFFFF5] font-inter lg:p-10 p-5 rounded-3xl gap-4 lg:gap-14 mt-28" data-aos="fade-up">
             <div>
             <p className="text-sub font-inter rounded-2xl px-2 py-1 border border-[#343268] bg-base-100 w-[130px] text-center">Service</p>
                 <h1 className="text-core text-3xl lg:text-4xl lg:max-w-md font-inter font-semibold mt-2 lg:mt-5">Empowering Health, Enriching Lives</h1>

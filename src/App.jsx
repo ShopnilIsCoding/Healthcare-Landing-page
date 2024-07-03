@@ -9,6 +9,9 @@ import Services from './Components/Services/Services'
 import Stats from './Components/Stats/Stats'
 import TestimonialSlider from './Components/Testimonials/TestimonialSlider'
 import './index.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 function App() {
   
