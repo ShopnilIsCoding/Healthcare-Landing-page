@@ -1,13 +1,16 @@
 
+import Navbar from './Components/Navbar/Navbar'
 import './index.css'
 
 function App() {
   
 
   return (
-    <>
-      <h1 className='text-5xl '>Hello World</h1>
-    </>
+    <div className='bg-[#FBFBFB]'>
+      <div className='container mx-auto'>
+     <Navbar></Navbar>
+    </div>
+    </div>
   )
 }
 
